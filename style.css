@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #000000, #3f228d, #b2b2ff);
+  color: white; 
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.cv-button {
+  background: linear-gradient(to right, #ff66cc, #ff99cc);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  float: right;
+  margin-right: 20px;
+  margin-top: -40px;
+  text-decoration: none;
+}
+
+.cv-button:hover {
+  opacity: 0.9;
+}
+
+header {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  color: white; 
+}
+
+h2 { 
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h3 {
+  font-weight: normal;
+  color: white; 
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  color: white; 
+}
+
+hr {
+  margin: 50px 0;
+  border: 1px solid #ccc;
+  border-top: none; 
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f8f8; 
+  color: #333;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+form button[type="submit"] {
+  background-color: #007bff; 
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #c0c0c0; 
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: white;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  color: white;
+}
+
+.experience-item, .project-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 8px;
+}
+
+.experience-details ul {
+  list-style-type: circle;
+  margin-top: 5px;
+  color: white;
+}
+
+.experience-item h3, .project-item h3 {
+    color: #b2b2ff; 
+}
+
+.project-item p {
+    color: #e0e0e0; 
+}
